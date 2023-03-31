@@ -129,6 +129,17 @@ img {
  ************************************************/
 
  /* Tablet */
+
+
+
+ /* Bonus */
+ @media screen and (min-width: 768px ) and (max-width: 1160px){
+    .container{
+        width: 100%;
+    }
+    
+ }
+
  @media screen and (max-width: 768px) {
     .container{
         width: 100%;
@@ -150,6 +161,15 @@ img {
 
     .lessons .col, .steps .col, .why-us .col{
         width: 100%;
+    }
+
+    .why-us, .steps{
+        padding: 3rem 0rem;
+        margin-bottom: 0px;
+    }
+
+    .why-us{
+        background-color: #222222;
     }
     
   }
